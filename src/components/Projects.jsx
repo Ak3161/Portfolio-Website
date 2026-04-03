@@ -85,6 +85,47 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          {/* Project Card 4 */}
+          <div className="group relative bg-surface-container-low rounded-2xl overflow-hidden hover:bg-surface-container-high transition-all duration-500">
+            <div className="aspect-video relative overflow-hidden">
+              <img
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                alt="AI deepfake detection neural network visualization"
+                src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80"
+              />
+              <div className="absolute inset-0 bg-tertiary-container/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              {/* AWS EC2 Badge */}
+              <div className="absolute top-3 right-3 flex items-center gap-1 bg-black/70 backdrop-blur-sm border border-orange-500/40 text-orange-400 px-2 py-1 rounded-full text-[9px] font-bold uppercase tracking-widest">
+                <span className="material-symbols-outlined" style={{fontSize:'12px'}}>cloud</span>
+                AWS EC2
+              </div>
+            </div>
+            <div className="p-8">
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] uppercase tracking-widest font-bold">Java</span>
+                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] uppercase tracking-widest font-bold">Spring Boot</span>
+                <span className="px-3 py-1 bg-surface-container-highest rounded-full text-[10px] uppercase tracking-widest font-bold">React.js</span>
+              </div>
+              <h3 className="text-2xl font-black mb-3">Deepfake Detector</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed mb-6">
+                Full-stack AI deepfake detection platform with a Java Spring Boot backend and React frontend. Backend deployed on <span className="text-orange-400 font-semibold">AWS EC2</span> for scalable, cloud-native inference.
+              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <a className="text-primary-fixed-dim flex items-center gap-2 group/link" href="https://github.com/Ak3161/Deepfake-Detector-using-java-Frontend.git" target="_blank" rel="noopener noreferrer">
+                    <span className="font-bold text-sm">Frontend</span>
+                    <span className="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                  </a>
+                  <a className="text-primary-fixed-dim flex items-center gap-2 group/link" href="https://github.com/Ak3161/Deepfake-Detector-using-java-Backend.git" target="_blank" rel="noopener noreferrer">
+                    <span className="font-bold text-sm">Backend</span>
+                    <span className="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                  </a>
+                </div>
+                <span className="material-symbols-outlined text-on-surface-variant">policy</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
