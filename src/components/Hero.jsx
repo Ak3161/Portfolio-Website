@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-8 text-center relative z-10">
         <span className="label-sm uppercase tracking-[0.2em] text-primary-fixed-dim mb-6 block">Java Backend Developer</span>
         <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-tight mb-6">
-          Aniket <span className="gradient-text">Kumawat</span>
+          Aniket Nitin <span className="gradient-text">Kumawat</span>
         </h1>
         <p className="text-xl md:text-2xl text-on-surface-variant max-w-3xl mx-auto mb-10 leading-relaxed">
           Building scalable backend systems with AI-powered capabilities. Focused on architecting the next generation of digital infrastructure.
