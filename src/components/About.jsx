@@ -12,7 +12,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
           </div>
           <div className="absolute -bottom-6 -right-6 p-8 bg-surface-bright rounded-xl shadow-2xl">
-            <span className="text-4xl font-black text-primary">3+</span>
+            <span className="text-4xl font-black text-primary">4+</span>
             <p className="text-xs uppercase tracking-widest text-on-surface-variant mt-2">Projects Completed</p>
           </div>
         </div>
